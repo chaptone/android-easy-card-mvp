@@ -5,4 +5,8 @@ package com.example.jittat.easycard.card;
  */
 
 public interface CardPresenter {
+
+    void start();
+    void next();
+    void prev();
 }
