@@ -11,6 +11,11 @@ public class CardRepository {
 
     public CardRepository() {
         cards = new ArrayList<Card>();
+
+        // for early testing
+        cards.add(new Card("CAT","a very cute animal"));
+        cards.add(new Card("TIGER","a very big cat"));
+        cards.add(new Card("ELEPHANT","a very big animal with a long nose"));
     }
 
     public int getCardCount() {

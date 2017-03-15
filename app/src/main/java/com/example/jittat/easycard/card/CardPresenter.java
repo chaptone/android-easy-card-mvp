@@ -5,8 +5,12 @@ package com.example.jittat.easycard.card;
  */
 
 public interface CardPresenter {
-
     void start();
-    void next();
-    void prev();
+
+    // interaction
+    void onCardClick();
+
+    // navigation
+    void nextCard();
+    void previousCard();
 }

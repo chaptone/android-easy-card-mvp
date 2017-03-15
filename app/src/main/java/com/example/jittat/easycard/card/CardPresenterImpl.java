@@ -17,9 +17,12 @@ public class CardPresenterImpl implements CardPresenter {
     public void start() {
     }
 
-    public void next() {
+    public void onCardClick() {
     }
 
-    public void prev() {
+    public void nextCard() {
+    }
+
+    public void previousCard() {
     }
 }
