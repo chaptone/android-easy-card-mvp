@@ -9,6 +9,15 @@ import java.util.ArrayList;
 public class CardRepository {
     private ArrayList<Card> cards;
 
+    static CardRepository singleInstance = null;
+
+    static public CardRepository getInstance() {
+        if(singleInstance == null) {
+            singleInstance = new CardRepository();
+        }
+        return singleInstance;
+    }
+
     public CardRepository() {
         cards = new ArrayList<Card>();
 
